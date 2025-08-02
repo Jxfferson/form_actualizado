@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/styles.css">
-    <title>Formulario  FINAL</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos/styles.css" />
+    <title>Formulario FINAL</title>
+  </head>
+  <body>
     <h1 id="title">FROMULARIO SENA V1</h1>
-    <p id="description">
-      GRACIAS POR SU RESPUESTA
-    </p>
+    <p id="description">GRACIAS POR SU RESPUESTA</p>
     <form id="survey-form">
       <fieldset>
         <label id="name-label"
@@ -48,10 +46,20 @@
         <label id="radio-buttons">
           Do you plan to buy a new car in the next 5 years?
           <label
-            ><input class="inline" name="account-type" type="radio" value="yes" />Yes</label
+            ><input
+              class="inline"
+              name="account-type"
+              type="radio"
+              value="yes"
+            />Yes</label
           >
           <label
-            ><input class="inline" name="account-type" type="radio" value="no" />No</label
+            ><input
+              class="inline"
+              name="account-type"
+              type="radio"
+              value="no"
+            />No</label
           >
           <label
             ><input
@@ -138,5 +146,12 @@
       </fieldset>
       <input type="submit" id="submit" value="Submit" />
     </form>
-</body>
+    <div id="modal-succes" class="modal hidden">
+      <div class="modal-content">
+        <h2>¡Datos enviados con  éxito!</h2>
+        <button id="close-modal">Cerrar</button>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="main.js"></script>
 </html>
