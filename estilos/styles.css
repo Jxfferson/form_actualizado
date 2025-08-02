@@ -100,8 +100,7 @@ input[type="submit"] {
   font-weight: bolder;
 }
 
-
-.modal{
+.modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -111,19 +110,18 @@ input[type="submit"] {
   z-index: 1000;
 }
 
-.modal-content{
+.modal-content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgb(29,92,200);
+  background-color: rgb(29, 92, 200);
   padding: 2em;
   border-radius: 0.5em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.modal.hidden{
+.modal.hidden {
   display: none;
 }
-
