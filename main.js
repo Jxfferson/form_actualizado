@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('survey-form');
     const closeButton = document.getElementById('close-modal');
 
-    form.addEventListener('sumbit', (event) => {
+    form.addEventListener('submit', (event) => {
         event.preventDefault();
         showModal();
         form.reset();
