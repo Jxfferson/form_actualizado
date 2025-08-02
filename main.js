@@ -1,16 +1,16 @@
-import {showModal, hideModal } from './modal.js';
+import { showModal, hideModal } from './modal.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('survey-form');
-    const closeButton = document.getElementById('close-modal');
+  const form = document.getElementById('survey-form');
+  const closeButton = document.getElementById('close-modal');
 
-    form.addEventListener('submit', (event) => {
-        event.preventDefault();
-        showModal();
-        form.reset();
-    });
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    showModal();
+    form.reset();
+  });
 
-    closeButton.addEventListener('click', () => {
-        hideModal();
-    });
+  closeButton.addEventListener('click', () => {
+    hideModal();
+  });
 });
